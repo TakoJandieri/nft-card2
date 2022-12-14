@@ -1,0 +1,154 @@
+#main {
+    width: 302px;
+    border-radius: 15px;
+    background-color: #15263F;
+    box-shadow: 0px 25px 50px rgba(0, 0, 0, 0.0952917);
+    padding: 24px;   
+    overflow: hidden;
+    
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    background-color: #0D192C;
+     /* mtliani ekranis view portis vertikali */
+     height: 100vh;
+
+     align-items: center;
+    /* bodys defoultad aqvs margin da uchndeba scroll, gasaqrobad>> */
+     margin: 0px;
+
+}
+
+img {
+    max-width: 100%;
+    border-radius: 8px;
+    align-items: center;
+}
+
+h1 {
+    color: #FFFFFF;
+    font-family: 'Outfit', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 28px;
+
+}
+
+p {
+    color: #8BACD9;
+    font-family: 'Outfit', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 26px;
+
+}
+#maintimeplace {
+    display: flex;
+    justify-content: space-between;
+}
+
+#arrowkey {
+    display: flex;
+}
+
+.arrow {
+    margin-right: 5px;
+    width: 11px;
+    height: 18px;
+}
+
+
+.time1 {
+    color: #00FFF8;
+    font-family: 'Outfit', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+
+}
+
+/*clock*/
+.time2 {
+    color: #8BACD9;
+    font-family: 'Outfit', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+
+}
+
+.circle {
+    display: inline-block;
+    background-color: #8BACD9;
+    border-radius: 50%;
+    width: 13.33px;
+    height: 13.33px;
+
+}
+
+.minute {
+    width: 1.3px;
+    height: 4px;
+    background-color: black;
+    margin-top: 2px;
+    margin-left: 5.5px;
+    
+}
+
+.hour {
+    width: 4.8px;
+    height: 1.6px;
+    background-color: black;
+    margin-left: 5.5px;
+    
+}
+
+
+#line {
+    width: 302px;
+    height: 1px;
+    background-color: #2E405A;
+    margin-top: 24px;
+}
+
+
+#bottomplace {
+    display: flex;
+}
+
+
+.creatoricon{
+    border: 1px solid #FFFFFF;
+    width: 33px;
+    height: 33px;
+    margin-top: 16px;
+}
+
+
+.creator {
+    margin-top: 22px;
+    margin-left: 16px;
+    font-family: 'Outfit', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+
+}
+
+.name {
+    margin-top: 22px;
+    margin-left: 6px;
+    font-family: 'Outfit', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
